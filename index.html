@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ShinePlus Car Detailing – Modern Auto Detailing Website Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Modern one-page website template for car detailing / car wash businesses. Fully responsive HTML, CSS & JS."
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body data-theme="teal">
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">Shine<span>Plus</span></div>
+
+      <nav class="nav" id="mainNav">
+        <a href="#hero">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        ☰
+      </button>
+
+      <div class="theme-switcher">
+        <button data-theme="teal" class="theme-dot active"></button>
+        <button data-theme="blue" class="theme-dot"></button>
+        <button data-theme="orange" class="theme-dot"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Premium Car Detailing in Your City</h1>
+          <p>
+            Give your car the showroom shine it deserves. Professional interior
+            and exterior detailing, hand wash and ceramic coating.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn primary">Book an Appointment</a>
+            <a href="#services" class="btn ghost">View Services</a>
+          </div>
+          <div class="hero-badges">
+            <span>✨ 10+ Years Experience</span>
+            <span>⭐ 4.9/5 Customer Rating</span>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="hero-car-card">
+            <div class="hero-car-overlay"></div>
+            <div class="hero-car-content">
+              <h2>Full Detailing Package</h2>
+              <p>From $149 · 3–4 hours</p>
+              <ul>
+                <li>Exterior hand wash & wax</li>
+                <li>Interior deep clean</li>
+                <li>Wheel & tire care</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">
+          Tailored packages for every car – from quick wash to full restoration.
+        </p>
+
+        <div class="grid services-grid">
+          <article class="card service-card">
+            <h3>Express Wash</h3>
+            <p>Quick exterior hand wash for a fresh, clean look.</p>
+            <ul>
+              <li>Pre-wash foam</li>
+              <li>Hand wash & dry</li>
+              <li>Wheel cleaning</li>
+            </ul>
+            <div class="price-tag">from $29</div>
+          </article>
+
+          <article class="card service-card">
+            <h3>Interior Detailing</h3>
+            <p>Deep interior cleaning for a like-new cabin.</p>
+            <ul>
+              <li>Vacuum & dust removal</li>
+              <li>Fabric & leather treatment</li>
+              <li>Odor elimination</li>
+            </ul>
+            <div class="price-tag">from $89</div>
+          </article>
+
+          <article class="card service-card">
+            <h3>Ceramic Coating</h3>
+            <p>Long-lasting paint protection with intense gloss.</p>
+            <ul>
+              <li>Paint decontamination</li>
+              <li>Machine polishing</li>
+              <li>2–5 year protection</li>
+            </ul>
+            <div class="price-tag">from $399</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Before & After</h2>
+        <p class="section-subtitle">
+          Real results from our detailing packages. Replace these blocks with
+          your own images.
+        </p>
+
+        <div class="grid gallery-grid">
+          <div class="gallery-item">
+            <span class="badge">Before</span>
+          </div>
+          <div class="gallery-item">
+            <span class="badge">After</span>
+          </div>
+          <div class="gallery-item">
+            <span class="badge">Interior</span>
+          </div>
+          <div class="gallery-item">
+            <span class="badge">Ceramic</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2 class="section-title">Pricing Packages</h2>
+        <p class="section-subtitle">
+          Transparent pricing with no hidden fees. Choose the package that fits
+          your car and budget.
+        </p>
+
+        <div class="grid pricing-grid">
+          <article class="card pricing-card">
+            <h3>Basic Clean</h3>
+            <p class="pricing-price">$49</p>
+            <p class="pricing-note">Best for a quick refresh</p>
+            <ul>
+              <li>Exterior wash & dry</li>
+              <li>Windows inside & out</li>
+              <li>Light interior vacuum</li>
+            </ul>
+            <a href="#contact" class="btn secondary">Book Basic</a>
+          </article>
+
+          <article class="card pricing-card featured">
+            <div class="badge badge-accent">Most Popular</div>
+            <h3>Full Detail</h3>
+            <p class="pricing-price">$149</p>
+            <p class="pricing-note">Complete inside & out care</p>
+            <ul>
+              <li>Hand wash & wax</li>
+              <li>Interior deep clean</li>
+              <li>Wheel & tire treatment</li>
+              <li>Engine bay clean</li>
+            </ul>
+            <a href="#contact" class="btn primary">Book Full Detail</a>
+          </article>
+
+          <article class="card pricing-card">
+            <h3>Premium Ceramic</h3>
+            <p class="pricing-price">$499</p>
+            <p class="pricing-note">Ultimate long-term protection</p>
+            <ul>
+              <li>Multi-stage paint correction</li>
+              <li>2–5 year ceramic coating</li>
+              <li>Interior protection add-on</li>
+            </ul>
+            <a href="#contact" class="btn secondary">Book Premium</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Customer Reviews</h2>
+        <p class="section-subtitle">
+          Happy drivers who trusted us with their vehicles.
+        </p>
+
+        <div class="grid testimonials-grid">
+          <article class="card testimonial-card">
+            <p>
+              “My car looks better than the day I bought it. Amazing attention
+              to detail!”
+            </p>
+            <div class="testimonial-name">— Alex K.</div>
+          </article>
+
+          <article class="card testimonial-card">
+            <p>
+              “Super friendly staff and flawless work. Ceramic coating is worth
+              every dollar.”
+            </p>
+            <div class="testimonial-name">— Maria L.</div>
+          </article>
+
+          <article class="card testimonial-card">
+            <p>
+              “They removed years of scratches and swirls. Highly recommended
+              to any car lover.”
+            </p>
+            <div class="testimonial-name">— Daniel R.</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 class="section-title">Book Your Appointment</h2>
+        <p class="section-subtitle">
+          Fill out the form and we’ll get back to you within one business day.
+        </p>
+
+        <div class="grid contact-grid">
+          <form class="card contact-form">
+            <div class="form-group">
+              <label for="name">Name*</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email*</label>
+              <input type="email" id="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service</label>
+              <select id="service">
+                <option>Full Detail</option>
+                <option>Express Wash</option>
+                <option>Interior Detailing</option>
+                <option>Ceramic Coating</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Preferred date & time, car model, etc."></textarea>
+            </div>
+
+            <button type="submit" class="btn primary full-width">
+              Send Request (demo only)
+            </button>
+            <p class="form-note">
+              This is a demo form – connect it to your own system or email
+              provider.
+            </p>
+          </form>
+
+          <div class="card contact-info">
+            <h3>Visit Our Studio</h3>
+            <p>123 Shine Street<br />Your City, Country</p>
+            <p><strong>Phone:</strong> (000) 123-4567</p>
+            <p><strong>Opening hours:</strong><br />Mon–Sat: 9:00 – 18:00</p>
+            <p class="contact-highlight">
+              Drop off your car, grab a coffee nearby and we’ll handle the rest.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> ShinePlus Car Detailing. All rights reserved.</p>
+      <p class="footer-credit">
+        Website template by YourBrand – available on Etsy.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
